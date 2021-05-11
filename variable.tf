@@ -22,9 +22,7 @@ default = "AKIAUWLPPYKEHPDEHKX2"
 variable "secret_key" {
   description = "The secret key for AWS Account"
 default = "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"
-
 }
-
 variable "aws_account_id" {
   description = "My AWS Account ID"
 default = "322893234824"
