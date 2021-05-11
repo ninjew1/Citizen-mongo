@@ -1,11 +1,7 @@
-resource "mongodbatlas_project" "test" {
-  name   = "dannyProject"
-  org_id = var.atlasorgid
-}
 
 resource "mongodbatlas_cluster" "cluster-atlas" {
   project_id                   = var.atlasprojectid
-  name                         = var.projectname
+  name                         = var.clustername
   num_shards                   = 1
   replication_factor           = 3
   provider_backup_enabled      = true

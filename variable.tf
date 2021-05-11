@@ -34,7 +34,11 @@ variable "atlas_vpc_cidr" {
   description = "Atlas CIDR"
 default = "192.168.248.0/21"
 }
-variable "projectname" {
-  description = "The projectname in  MongoDB Atlas"
-default = "Citizenindannyproject"
+# variable "projectname" {
+#   description = "The projectname in  MongoDB Atlas"
+# default = ""
+# }
+variable "clustername" {
+  description = "The cluster name in  MongoDB Atlas"
+default = "Citizen-cluster-demo"
 }
