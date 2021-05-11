@@ -14,7 +14,6 @@ variable "private_key" {
   description = "The private API key for MongoDB Atlas"
 default = "73b8a075-95c6-4255-9a3f-a42b1b1da6eb"
 }
-
 variable "access_key" {
   description = "The access key for AWS Account"
 default = "AKIAUWLPPYKEHPDEHKX2"
@@ -37,5 +36,5 @@ default = "192.168.248.0/21"
 }
 variable "projectname" {
   description = "The projectname in  MongoDB Atlas"
-default = "Citizen"
+default = "Citizenindannyproject"
 }
